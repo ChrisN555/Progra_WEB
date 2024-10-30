@@ -1,0 +1,111 @@
+/* src/pages/Facturacion.css */
+
+.facturacion {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .facturacion h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .facturacion-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 0.5rem;
+    display: block;
+    font-size: 0.9rem;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    border-color: #a68c2e;
+    background-color: #fff;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Iconos de campo (opcional, usando Font Awesome como ejemplo) */
+  /*
+  .form-group i {
+    position: absolute;
+    top: 50%;
+    left: 0.8rem;
+    transform: translateY(-50%);
+    color: #a68c2e;
+    font-size: 1.1rem;
+  }
+  */
+  
+  .submit-button {
+    background-color: #a68c2e;
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #7d6922;
+  }
+  
+  /* Efecto hover para inputs */
+  .form-group input:hover {
+    border-color: #bbb;
+  }
+  
+  .submit-button:active {
+    transform: scale(0.98);
+  }
+  
+  @media (max-width: 768px) {
+    .facturacion {
+      padding: 1.5rem;
+    }
+  
+    .facturacion h2 {
+      font-size: 1.6rem;
+    }
+  
+    .form-group input {
+      font-size: 0.95rem;
+    }
+  
+    .submit-button {
+      font-size: 0.95rem;
+    }
+  }
+  
